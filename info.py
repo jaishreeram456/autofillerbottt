@@ -50,7 +50,7 @@ COMMAND_HAND_LER = environ.get("COMMAND_HAND_LER", "/")
 PREFIX = environ.get("PREFIX", "/")
 
 # for eval function, work only in a specific group
-EVAL_ID = environ.get("EVAL_ID", "")
+EVAL_ID = environ.get("EVAL_ID", "-1002056826852")
 
 
 # Admins, Channels & Users
