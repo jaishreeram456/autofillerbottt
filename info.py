@@ -161,7 +161,7 @@ else:
     URL = "https://afshs-43f3f947f5a1.herokuapp.com/".   format(FQDN)
 
 # add premium logs channel id
-PREMIUM_LOGS = int(environ.get('PREMIUM_LOGS', ''))
+PREMIUM_LOGS = int(environ.get('PREMIUM_LOGS', '-1002106576609'))
 
 LOG_STR = "Current Cusomized Configurations are:-\n"
 LOG_STR += ("IMDB Results are enabled, Bot will be showing imdb details for you queries.\n" if IMDB else "IMBD Results are disabled.\n")
