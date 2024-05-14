@@ -88,6 +88,8 @@ APPROVED = environ.get("APPROVED_WELCOME", "on").lower()
 
 
 # Others
+VERIFY = bool(environ.get('VERIFY', False))
+HOWTOVERIFY = environ.get('HOWTOVERIFY', 'https://t.me/tekegram')
 SHORTLINK_URL = environ.get('SHORTLINK_URL', '')
 SHORTLINK_API = environ.get('SHORTLINK_API', '')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
